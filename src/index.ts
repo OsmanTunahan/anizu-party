@@ -115,7 +115,7 @@ async function loadEventHandlers(): Promise<((socket: any, io: any) => void)[]> 
   
   // Set up health check endpoint
   app.get('/', (res, _) => {
-    res.writeStatus('200 OK').end('Anizu Watch Together Socket 👌');
+    res.writeStatus('200 OK').end('Anizu Party is ready 👌');
   });
   
   // Attach Socket.IO to uWebSockets
