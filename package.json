@@ -1,0 +1,28 @@
+{
+    "name": "anizu-watch-together",
+    "main": "dist/index.js",
+    "type": "module",
+    "scripts": {
+        "start": "node . --no-warnings",
+        "build": "tsup",
+        "test": "npm build && npm lint"
+    },
+    "dependencies": {
+        "chalk": "^5.3.0",
+        "dotenv": "^16.4.7",
+        "ioredis": "^5.4.1",
+        "socket.io": "^4.7.5",
+        "uWebSockets.js": "github:uNetworking/uWebSockets.js#v20.43.0",
+        "zod": "^3.23.6"
+    },
+    "devDependencies": {
+        "@eslint/js": "^9.1.1",
+        "@swc/core": "^1.4.17",
+        "@types/node": "^20.12.8",
+        "globals": "^15.1.0",
+        "tslib": "^2.6.2",
+        "tsup": "^8.0.2",
+        "typescript": "^5.4.5",
+        "typescript-eslint": "^7.8.0"
+    }
+}
