@@ -1,0 +1,43 @@
+{
+    "compileOnSave": true,
+    "compilerOptions": {
+        "target": "ESNext",
+        "strict": false,
+        "skipLibCheck": true,
+        "resolveJsonModule": true,
+        "removeComments": false,
+        "preserveConstEnums": true,
+        "pretty": true,
+        "outDir": "dist",
+        "noUnusedParameters": false,
+        "noUnusedLocals": false,
+        "noImplicitReturns": true,
+        "noFallthroughCasesInSwitch": true,
+        "noEmitHelpers": true,
+        "noEmit": true,
+        "newLine": "lf",
+        "moduleResolution": "Node",
+        "module": "ESNext",
+        "ignoreDeprecations": "5.0",
+        "importHelpers": true,
+        "experimentalDecorators": true,
+        "esModuleInterop": true,
+        "emitDecoratorMetadata": true,
+        "declaration": false,
+        "alwaysStrict": false,
+        "allowSyntheticDefaultImports": true,
+        "useDefineForClassFields": true,
+        "rootDir": ".",
+        "paths": {
+            "@index": [
+                "./src/index.ts"
+            ]
+        },
+        "lib": [
+            "ESNext"
+        ]
+    },
+    "exclude": [
+        "node_modules"
+    ],
+}
