@@ -24,5 +24,8 @@
         "tsup": "^8.0.2",
         "typescript": "^5.4.5",
         "typescript-eslint": "^7.8.0"
+    },
+    "engines": {
+        "node": ">=20.0.0 <21.0.0"
     }
 }
