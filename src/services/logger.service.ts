@@ -1,5 +1,5 @@
-import { ILoggerService } from '@interfaces/index';
 import chalk from 'chalk';
+import { ILoggerService } from '@interfaces/index';
 
 /**
  * Logger Service

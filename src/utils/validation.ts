@@ -19,7 +19,6 @@ export const loginValidation = z.object({
     .min(2, { message: 'Room password must be at least 2 characters' })
     .max(32, { message: 'Room password must be at most 32 characters' }),
   anime: z.object({
-    fansub: z.string().min(1).max(500),
     slug: z.string().min(1).max(500),
     season: z.number().int(),
     episode: z.number().int(),

@@ -28,5 +28,5 @@ export const ApiConfig = {
 export const ChatbotConfig = {
   AVATAR: process.env.CHATBOT_AVATAR || 'https://cdn.anizu.net/mascot.jpg',
   NAME: process.env.CHATBOT_NAME || 'System',
-  ID: '1337' // Fixed ID for the system bot
+  ID: '1337', // Fixed ID for the system bot
 };

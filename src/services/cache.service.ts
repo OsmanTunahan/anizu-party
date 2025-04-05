@@ -1,6 +1,6 @@
+import Redis from 'ioredis';
 import { ICacheService } from '@interfaces/index';
 import { RedisConfig } from '@config/env';
-import Redis from 'ioredis';
 
 /**
  * Cache Service
